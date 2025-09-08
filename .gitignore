@@ -1,3 +1,4 @@
 .env
 .venv
 clean_notebook.py
+finetuned_model
