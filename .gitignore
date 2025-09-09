@@ -2,3 +2,4 @@
 .venv
 clean_notebook.py
 finetuned_model
+__pycache__
