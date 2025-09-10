@@ -1,5 +1,6 @@
 .env
 .venv
 clean_notebook.py
-finetuned_model
 __pycache__
+phi3-patient-admission-merged
+phi3-patient-admission-lora
