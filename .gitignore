@@ -4,3 +4,4 @@ clean_notebook.py
 __pycache__
 phi3-patient-admission-merged
 phi3-patient-admission-lora
+phi3-patient-admission.gguf
