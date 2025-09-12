@@ -1,1 +1,2 @@
-FROM phi3-patient-admission.gguf
+FROM /content/phi3-patient-admission-merged.gguf
+PARAMETER num_ctx 4096
