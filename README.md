@@ -5,7 +5,7 @@
 _______________ 
 ## Outputs
 #### **Base Model vs Finetuned Model**
-![Comparison Output](assets/final_output.png)
+![Comparison Output](assets/output_comparison.png)
 
 --
 #### **Output from Ollama**  
@@ -14,7 +14,7 @@ _______________
 
 __________________
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Model:** Phi-3-mini-4k-instruct-bnb-4bit
 * **Frameworks & Libraries:**
    * unsloth
@@ -26,6 +26,26 @@ __________________
    * llama.cpp (GGUF conversion)
    * Ollama (local inference)
 * **Environment:** Google Colab  
+
+---------------------------------
+
+## Project Structure
+```
+finetune-ollama-unsloth/
+   │
+   ├── assets/
+   │   ├── output_comparison.png
+   │   └── ollama_output.png
+   │
+   ├── data/
+   │   └── patient_admission.json
+   │
+   ├── finetune.ipynb
+   ├── Modelfile
+   ├── README.md
+   ├── LICENSE
+   └── requirements.txt
+```
 
 ----------------------------------------
 
